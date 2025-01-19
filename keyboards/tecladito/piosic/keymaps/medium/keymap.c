@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [2] = LAYOUT_medium(
     //┌──────────┬─────────┬─────────┬─────────┬─────────┬─────────┐                   ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
-        _______,   XXXXXXX,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,                      KC_CIRC,  KC_AMPR,  KC_LPRN,  KC_RPRN,  XXXXXXX,  _______,
+        TD(QK_BOOT),   XXXXXXX,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,                      KC_CIRC,  KC_AMPR,  KC_LPRN,  KC_RPRN,  XXXXXXX,  _______,
     //├──────────┼─────────┼─────────┼─────────┼─────────┼─────────┤                   ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
         _______,   KC_EXLM,  KC_LABK,  KC_RABK,  KC_QUES,  KC_ASTR,                      KC_MINS,  KC_EQL,   KC_LBRC,  KC_RBRC,  KC_BSLS,  KC_GRV,
     //├──────────┼─────────┼─────────┼─────────┼─────────┼─────────┤                   ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
